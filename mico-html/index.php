@@ -35,6 +35,7 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <?php  include 'function.php';?>
+  <?php include 'testemonial.php';?>
 
 </head>
 
@@ -561,8 +562,8 @@
         </h2>
       </div>
     </div>
-  
-    <div class="container px-0">
+   <?php Testimonial();  ?>
+    <!-- <div class="container px-0">
       <div id="customCarousel2" class="carousel  carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -631,7 +632,7 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
   <!-- end client section -->
 
